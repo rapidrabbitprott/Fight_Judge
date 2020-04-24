@@ -1,0 +1,6 @@
+framework module Pods_Fight_Judge {
+  umbrella header "Pods-Fight Judge-umbrella.h"
+
+  export *
+  module * { export * }
+}

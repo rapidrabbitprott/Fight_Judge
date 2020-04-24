@@ -3,18 +3,139 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F03D9A2237BC10F001A454F /* WatchPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F03D9A1237BC10F001A454F /* WatchPostsViewController.swift */; };
+		5F0FE66B2375665A004A2898 /* PastFightCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0FE66A2375665A004A2898 /* PastFightCardViewController.swift */; };
+		5F0FE66D2375769B004A2898 /* WriteImpressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0FE66C2375769B004A2898 /* WriteImpressionViewController.swift */; };
+		5F11CCC7236EB96900992A5E /* WatchPredictionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11CCC6236EB96900992A5E /* WatchPredictionDetailViewController.swift */; };
+		5F1212D82377D01300DDB985 /* icons8-reply-arrow-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F1212D72377D01300DDB985 /* icons8-reply-arrow-50.png */; };
+		5F1212DC2377DF7600DDB985 /* WatchImpressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1212DB2377DF7600DDB985 /* WatchImpressionViewController.swift */; };
+		5F12E16823408AEE0030CF9C /* WatchPredictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F12E16723408AEE0030CF9C /* WatchPredictionViewController.swift */; };
+		5F1A9714235D51F30040A33C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A9713235D51F30040A33C /* User.swift */; };
+		5F1A9716235D53860040A33C /* FightPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A9715235D53860040A33C /* FightPrediction.swift */; };
+		5F1A9718235D53AB0040A33C /* UploadedFight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A9717235D53AB0040A33C /* UploadedFight.swift */; };
+		5F1A971A235D53C00040A33C /* VotePrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A9719235D53C00040A33C /* VotePrediction.swift */; };
+		5F1C804C2398C220001374B6 /* PostDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C804A2398C220001374B6 /* PostDetailTableViewCell.swift */; };
+		5F1C804D2398C220001374B6 /* PostDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C804B2398C220001374B6 /* PostDetailTableViewCell.xib */; };
+		5F2483C423700E5500CEE498 /* icons8-topic-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2483C323700E5500CEE498 /* icons8-topic-50.png */; };
+		5F2483C623700F7400CEE498 /* icons8-share-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2483C523700F7400CEE498 /* icons8-share-50.png */; };
+		5F2483C823700FE900CEE498 /* icons8-view-more-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2483C723700FE900CEE498 /* icons8-view-more-50.png */; };
+		5F2483CC2370152600CEE498 /* icons8-shopping-cart-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2483CB2370152600CEE498 /* icons8-shopping-cart-50.png */; };
+		5F2483CE23701ACB00CEE498 /* icons8-more-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2483CD23701ACB00CEE498 /* icons8-more-50.png */; };
 		5F26ADB0232DE46700324E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26ADAF232DE46700324E31 /* AppDelegate.swift */; };
 		5F26ADB2232DE46700324E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26ADB1232DE46700324E31 /* ViewController.swift */; };
 		5F26ADB5232DE46700324E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F26ADB3232DE46700324E31 /* Main.storyboard */; };
 		5F26ADB7232DE46800324E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F26ADB6232DE46800324E31 /* Assets.xcassets */; };
 		5F26ADBA232DE46800324E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F26ADB8232DE46800324E31 /* LaunchScreen.storyboard */; };
+		5F26ADC2232DF6F200324E31 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F26ADC1232DF6F200324E31 /* SignIn.storyboard */; };
+		5F4F53282399C4B500F49982 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F53262399C4B500F49982 /* CommentTableViewCell.swift */; };
+		5F4F53292399C4B500F49982 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F53272399C4B500F49982 /* CommentTableViewCell.xib */; };
+		5F4F532B2399CD1C00F49982 /* icons8-thumbs-up-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F532A2399CD1B00F49982 /* icons8-thumbs-up-50.png */; };
+		5F4F532D2399CE1000F49982 /* icons8-thumbs-down-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F532C2399CE1000F49982 /* icons8-thumbs-down-50.png */; };
+		5F5A8EA723338A81003CBD08 /* 抜刀斎.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A8E9E23338A80003CBD08 /* 抜刀斎.jpg */; };
+		5F5A8EA923338A81003CBD08 /* 天心.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A8EA023338A80003CBD08 /* 天心.jpg */; };
+		5F5A8EAA23338A81003CBD08 /* 武尊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A8EA123338A80003CBD08 /* 武尊.jpg */; };
+		5F5A8EAB23338A81003CBD08 /* 朝倉海.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A8EA223338A80003CBD08 /* 朝倉海.jpg */; };
+		5F5A8EAD23338A81003CBD08 /* 堀口恭司.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A8EA423338A80003CBD08 /* 堀口恭司.jpg */; };
+		5F5A8EAE23338A81003CBD08 /* 村越ゆうた.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A8EA523338A81003CBD08 /* 村越ゆうた.jpeg */; };
+		5F5A8EAF23338A81003CBD08 /* 芦沢流星.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A8EA623338A81003CBD08 /* 芦沢流星.jpeg */; };
+		5F5E39EF239DC3EE00BBEFF1 /* ChartsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E39ED239DC3EE00BBEFF1 /* ChartsTableViewCell.swift */; };
+		5F5E39F0239DC3EE00BBEFF1 /* ChartsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F5E39EE239DC3EE00BBEFF1 /* ChartsTableViewCell.xib */; };
+		5F6226992337604D00BB3E90 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F6226982337604D00BB3E90 /* placeholder.jpg */; };
+		5F62269B233DE7FD00BB3E90 /* WatchVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62269A233DE7FD00BB3E90 /* WatchVoteViewController.swift */; };
+		5F62269D233DF8AC00BB3E90 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62269C233DF8AC00BB3E90 /* VoteViewController.swift */; };
+		5F6226A0233E0A9E00BB3E90 /* FightPredictionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62269E233E0A9E00BB3E90 /* FightPredictionTableViewCell.swift */; };
+		5F6226A1233E0A9E00BB3E90 /* FightPredictionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F62269F233E0A9E00BB3E90 /* FightPredictionTableViewCell.xib */; };
+		5F6226A7233E160200BB3E90 /* icons8-chart-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6226A6233E160200BB3E90 /* icons8-chart-50.png */; };
+		5F6226AB233EFB7D00BB3E90 /* WritePredictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6226AA233EFB7D00BB3E90 /* WritePredictionViewController.swift */; };
+		5F642AE42383D5D40040D975 /* MyUINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F642AE32383D5D40040D975 /* MyUINavigationViewController.swift */; };
+		5F642B2523840AE30040D975 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1023840AE30040D975 /* iTunesArtwork@1x.png */; };
+		5F642B2623840AE30040D975 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1223840AE30040D975 /* Icon-App-76x76@2x.png */; };
+		5F642B2723840AE30040D975 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1323840AE30040D975 /* Icon-App-29x29@1x.png */; };
+		5F642B2823840AE30040D975 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1423840AE30040D975 /* Icon-App-40x40@1x.png */; };
+		5F642B2923840AE30040D975 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1523840AE30040D975 /* Icon-App-20x20@1x.png */; };
+		5F642B2A23840AE30040D975 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1623840AE30040D975 /* Icon-App-83.5x83.5@2x.png */; };
+		5F642B2B23840AE30040D975 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1723840AE30040D975 /* Icon-App-20x20@3x.png */; };
+		5F642B2C23840AE30040D975 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1823840AE30040D975 /* ItunesArtwork@2x.png */; };
+		5F642B2D23840AE30040D975 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1923840AE30040D975 /* Contents.json */; };
+		5F642B2E23840AE30040D975 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1A23840AE30040D975 /* Icon-App-20x20@2x.png */; };
+		5F642B2F23840AE30040D975 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1B23840AE30040D975 /* Icon-App-29x29@3x.png */; };
+		5F642B3023840AE30040D975 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1C23840AE30040D975 /* Icon-App-40x40@2x.png */; };
+		5F642B3123840AE30040D975 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1D23840AE30040D975 /* Icon-App-60x60@3x.png */; };
+		5F642B3223840AE30040D975 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1E23840AE30040D975 /* Icon-App-60x60@2x.png */; };
+		5F642B3323840AE30040D975 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B1F23840AE30040D975 /* Icon-App-76x76@1x.png */; };
+		5F642B3423840AE30040D975 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B2023840AE30040D975 /* Icon-App-40x40@3x.png */; };
+		5F642B3523840AE30040D975 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B2123840AE30040D975 /* Icon-App-29x29@2x.png */; };
+		5F642B3723840AE30040D975 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B2323840AE30040D975 /* iTunesArtwork@2x.png */; };
+		5F642B3823840AE30040D975 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F642B2423840AE30040D975 /* iTunesArtwork@3x.png */; };
+		5F76422D2375515F000F4AB4 /* icons8-people-working-together-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5F76422C2375515F000F4AB4 /* icons8-people-working-together-50 (1).png */; };
+		5F81175F2367C1E400E784DA /* icons8-いいね-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F81175E2367C1E400E784DA /* icons8-いいね-50.png */; };
+		5F81176A2367CA2300E784DA /* clenched-grayfist-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8117682367CA2200E784DA /* clenched-grayfist-64.png */; };
+		5F81176B2367CA2300E784DA /* clenched-redfist-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8117692367CA2300E784DA /* clenched-redfist-64.png */; };
+		5F8E903A2331DF450004DBCA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E90392331DF450004DBCA /* SignUpViewController.swift */; };
+		5F8E903C2331ED230004DBCA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E903B2331ED230004DBCA /* SignInViewController.swift */; };
+		5F8E9050233352F70004DBCA /* icons8-compose-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E904A233352F60004DBCA /* icons8-compose-50.png */; };
+		5F8E9051233352F70004DBCA /* icons8-search-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E904B233352F60004DBCA /* icons8-search-50 (1).png */; };
+		5F8E9052233352F70004DBCA /* icons8-elections-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E904C233352F60004DBCA /* icons8-elections-50.png */; };
+		5F8E9053233352F70004DBCA /* icons8-head-to-head-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E904D233352F60004DBCA /* icons8-head-to-head-50.png */; };
+		5F8E9054233352F70004DBCA /* icons8-scales-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E904E233352F70004DBCA /* icons8-scales-50.png */; };
+		5F8E9055233352F70004DBCA /* icons8-customer-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E904F233352F70004DBCA /* icons8-customer-50.png */; };
+		5F8E905723335A2E0004DBCA /* icons8-communication-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E905623335A2E0004DBCA /* icons8-communication-50 (1).png */; };
+		5F8E9059233361A40004DBCA /* PredictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E9058233361A40004DBCA /* PredictionViewController.swift */; };
+		5F8E905B2333660A0004DBCA /* icons8-settings-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E905A2333660A0004DBCA /* icons8-settings-50 (1).png */; };
+		5F8E905E23337D100004DBCA /* FightCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E905C23337D100004DBCA /* FightCardTableViewCell.swift */; };
+		5F8E905F23337D100004DBCA /* FightCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E905D23337D100004DBCA /* FightCardTableViewCell.xib */; };
+		5FB34ACD2380F8DC00700DA5 /* 村田諒太.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FB34ACC2380F8DC00700DA5 /* 村田諒太.jpg */; };
+		5FB34ACF2380F92500700DA5 /* スティーブンバトラー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FB34ACE2380F92500700DA5 /* スティーブンバトラー.jpg */; };
+		5FB34AD32380FBEB00700DA5 /* ジョン・マカパ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5FB34AD22380FBEB00700DA5 /* ジョン・マカパ.jpeg */; };
+		5FB34AD5238105AB00700DA5 /* 志郎.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FB34AD4238105AB00700DA5 /* 志郎.jpg */; };
+		5FB34AFF23813F1C00700DA5 /* ノニトドネア.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FB34AFE23813F1C00700DA5 /* ノニトドネア.jpg */; };
+		5FB34B03238144AC00700DA5 /* 朝倉未来.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5FB34B02238144AC00700DA5 /* 朝倉未来.jpeg */; };
+		5FB416C0237A6E2100A677E1 /* SearchUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB416BE237A6E2100A677E1 /* SearchUserTableViewCell.swift */; };
+		5FB416C1237A6E2100A677E1 /* SearchUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB416BF237A6E2100A677E1 /* SearchUserTableViewCell.xib */; };
+		5FB416C3237A723000A677E1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB416C2237A723000A677E1 /* SearchViewController.swift */; };
+		5FB416C5237A734800A677E1 /* ShowUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB416C4237A734800A677E1 /* ShowUserViewController.swift */; };
+		5FB416CB237AC0EF00A677E1 /* FightImpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB416CA237AC0EF00A677E1 /* FightImpression.swift */; };
+		5FB416D1237AD13A00A677E1 /* ResultOfVotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB416D0237AD13900A677E1 /* ResultOfVotesViewController.swift */; };
+		5FBAAB22237429AD00F8D5EB /* CommentToVotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAAB21237429AD00F8D5EB /* CommentToVotes.swift */; };
+		5FBAAB24237429C700F8D5EB /* CommentToPredictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAAB23237429C700F8D5EB /* CommentToPredictions.swift */; };
+		5FBAAB26237535C100F8D5EB /* CommentToPredictionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAAB25237535C100F8D5EB /* CommentToPredictionsViewController.swift */; };
+		5FC6F4762334AB0F00CF2EB2 /* icons8-create-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6F4722334AB0F00CF2EB2 /* icons8-create-50.png */; };
+		5FC6F4772334AB0F00CF2EB2 /* icons8-analyze-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6F4732334AB0F00CF2EB2 /* icons8-analyze-50.png */; };
+		5FC6F4782334AB0F00CF2EB2 /* icons8-elections-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6F4742334AB0F00CF2EB2 /* icons8-elections-50 (1).png */; };
+		5FC6F4792334AB0F00CF2EB2 /* icons8-notification-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6F4752334AB0F00CF2EB2 /* icons8-notification-50.png */; };
+		5FDD64ED23EEB30000B941DD /* 井上尚弥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FDD64EC23EEB2FF00B941DD /* 井上尚弥.jpg */; };
+		5FDD64EF23EEB33100B941DD /* 朝倉未来.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FDD64EE23EEB33100B941DD /* 朝倉未来.jpg */; };
+		5FF61BE92335D37600231BFE /* UserPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF61BE82335D37600231BFE /* UserPageViewController.swift */; };
+		5FF61C092336106A00231BFE /* EditUserPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF61C082336106A00231BFE /* EditUserPageViewController.swift */; };
+		5FFAC8B023790634000DEF89 /* PastFightCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFAC8AE23790634000DEF89 /* PastFightCardTableViewCell.swift */; };
+		5FFAC8B123790634000DEF89 /* PastFightCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FFAC8AF23790634000DEF89 /* PastFightCardTableViewCell.xib */; };
+		8B89974DB9C3619F11CBB338 /* Pods_Fight_Judge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B267CE58893BBD8F381F4A /* Pods_Fight_Judge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		547F7C1FD9BBFBD7465C38B6 /* Pods-Fight Judge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fight Judge.release.xcconfig"; path = "Target Support Files/Pods-Fight Judge/Pods-Fight Judge.release.xcconfig"; sourceTree = "<group>"; };
+		5F03D9A1237BC10F001A454F /* WatchPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPostsViewController.swift; sourceTree = "<group>"; };
+		5F0FE66A2375665A004A2898 /* PastFightCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastFightCardViewController.swift; sourceTree = "<group>"; };
+		5F0FE66C2375769B004A2898 /* WriteImpressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteImpressionViewController.swift; sourceTree = "<group>"; };
+		5F11CCC6236EB96900992A5E /* WatchPredictionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPredictionDetailViewController.swift; sourceTree = "<group>"; };
+		5F1212D72377D01300DDB985 /* icons8-reply-arrow-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-reply-arrow-50.png"; sourceTree = "<group>"; };
+		5F1212DB2377DF7600DDB985 /* WatchImpressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchImpressionViewController.swift; sourceTree = "<group>"; };
+		5F12E16723408AEE0030CF9C /* WatchPredictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPredictionViewController.swift; sourceTree = "<group>"; };
+		5F1A9713235D51F30040A33C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5F1A9715235D53860040A33C /* FightPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightPrediction.swift; sourceTree = "<group>"; };
+		5F1A9717235D53AB0040A33C /* UploadedFight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadedFight.swift; sourceTree = "<group>"; };
+		5F1A9719235D53C00040A33C /* VotePrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotePrediction.swift; sourceTree = "<group>"; };
+		5F1C804A2398C220001374B6 /* PostDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewCell.swift; sourceTree = "<group>"; };
+		5F1C804B2398C220001374B6 /* PostDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDetailTableViewCell.xib; sourceTree = "<group>"; };
+		5F2483C323700E5500CEE498 /* icons8-topic-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-topic-50.png"; sourceTree = "<group>"; };
+		5F2483C523700F7400CEE498 /* icons8-share-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-share-50.png"; sourceTree = "<group>"; };
+		5F2483C723700FE900CEE498 /* icons8-view-more-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-view-more-50.png"; sourceTree = "<group>"; };
+		5F2483CB2370152600CEE498 /* icons8-shopping-cart-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-shopping-cart-50.png"; sourceTree = "<group>"; };
+		5F2483CD23701ACB00CEE498 /* icons8-more-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-more-50.png"; sourceTree = "<group>"; };
 		5F26ADAC232DE46700324E31 /* Fight Judge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fight Judge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F26ADAF232DE46700324E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F26ADB1232DE46700324E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +143,91 @@
 		5F26ADB6232DE46800324E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F26ADB9232DE46800324E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F26ADBB232DE46800324E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F26ADC1232DF6F200324E31 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		5F4F53262399C4B500F49982 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		5F4F53272399C4B500F49982 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		5F4F532A2399CD1B00F49982 /* icons8-thumbs-up-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-thumbs-up-50.png"; sourceTree = "<group>"; };
+		5F4F532C2399CE1000F49982 /* icons8-thumbs-down-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-thumbs-down-50.png"; sourceTree = "<group>"; };
+		5F5A8E9E23338A80003CBD08 /* 抜刀斎.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "抜刀斎.jpg"; sourceTree = "<group>"; };
+		5F5A8EA023338A80003CBD08 /* 天心.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天心.jpg"; sourceTree = "<group>"; };
+		5F5A8EA123338A80003CBD08 /* 武尊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "武尊.jpg"; sourceTree = "<group>"; };
+		5F5A8EA223338A80003CBD08 /* 朝倉海.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朝倉海.jpg"; sourceTree = "<group>"; };
+		5F5A8EA423338A80003CBD08 /* 堀口恭司.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "堀口恭司.jpg"; sourceTree = "<group>"; };
+		5F5A8EA523338A81003CBD08 /* 村越ゆうた.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "村越ゆうた.jpeg"; sourceTree = "<group>"; };
+		5F5A8EA623338A81003CBD08 /* 芦沢流星.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "芦沢流星.jpeg"; sourceTree = "<group>"; };
+		5F5E39ED239DC3EE00BBEFF1 /* ChartsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsTableViewCell.swift; sourceTree = "<group>"; };
+		5F5E39EE239DC3EE00BBEFF1 /* ChartsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartsTableViewCell.xib; sourceTree = "<group>"; };
+		5F6226982337604D00BB3E90 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		5F62269A233DE7FD00BB3E90 /* WatchVoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchVoteViewController.swift; sourceTree = "<group>"; };
+		5F62269C233DF8AC00BB3E90 /* VoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
+		5F62269E233E0A9E00BB3E90 /* FightPredictionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightPredictionTableViewCell.swift; sourceTree = "<group>"; };
+		5F62269F233E0A9E00BB3E90 /* FightPredictionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FightPredictionTableViewCell.xib; sourceTree = "<group>"; };
+		5F6226A6233E160200BB3E90 /* icons8-chart-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-chart-50.png"; sourceTree = "<group>"; };
+		5F6226AA233EFB7D00BB3E90 /* WritePredictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePredictionViewController.swift; sourceTree = "<group>"; };
+		5F642AE32383D5D40040D975 /* MyUINavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUINavigationViewController.swift; sourceTree = "<group>"; };
+		5F642B1023840AE30040D975 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		5F642B1223840AE30040D975 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		5F642B1323840AE30040D975 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		5F642B1423840AE30040D975 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		5F642B1523840AE30040D975 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		5F642B1623840AE30040D975 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		5F642B1723840AE30040D975 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		5F642B1823840AE30040D975 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		5F642B1923840AE30040D975 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		5F642B1A23840AE30040D975 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		5F642B1B23840AE30040D975 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		5F642B1C23840AE30040D975 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		5F642B1D23840AE30040D975 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		5F642B1E23840AE30040D975 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		5F642B1F23840AE30040D975 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		5F642B2023840AE30040D975 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		5F642B2123840AE30040D975 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		5F642B2323840AE30040D975 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		5F642B2423840AE30040D975 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		5F76422C2375515F000F4AB4 /* icons8-people-working-together-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-people-working-together-50 (1).png"; sourceTree = "<group>"; };
+		5F81175E2367C1E400E784DA /* icons8-いいね-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-いいね-50.png"; sourceTree = "<group>"; };
+		5F8117682367CA2200E784DA /* clenched-grayfist-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clenched-grayfist-64.png"; sourceTree = "<group>"; };
+		5F8117692367CA2300E784DA /* clenched-redfist-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clenched-redfist-64.png"; sourceTree = "<group>"; };
+		5F8E90392331DF450004DBCA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5F8E903B2331ED230004DBCA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5F8E904A233352F60004DBCA /* icons8-compose-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-compose-50.png"; sourceTree = "<group>"; };
+		5F8E904B233352F60004DBCA /* icons8-search-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search-50 (1).png"; sourceTree = "<group>"; };
+		5F8E904C233352F60004DBCA /* icons8-elections-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-elections-50.png"; sourceTree = "<group>"; };
+		5F8E904D233352F60004DBCA /* icons8-head-to-head-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-head-to-head-50.png"; sourceTree = "<group>"; };
+		5F8E904E233352F70004DBCA /* icons8-scales-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-scales-50.png"; sourceTree = "<group>"; };
+		5F8E904F233352F70004DBCA /* icons8-customer-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-customer-50.png"; sourceTree = "<group>"; };
+		5F8E905623335A2E0004DBCA /* icons8-communication-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-communication-50 (1).png"; sourceTree = "<group>"; };
+		5F8E9058233361A40004DBCA /* PredictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewController.swift; sourceTree = "<group>"; };
+		5F8E905A2333660A0004DBCA /* icons8-settings-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-settings-50 (1).png"; sourceTree = "<group>"; };
+		5F8E905C23337D100004DBCA /* FightCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightCardTableViewCell.swift; sourceTree = "<group>"; };
+		5F8E905D23337D100004DBCA /* FightCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FightCardTableViewCell.xib; sourceTree = "<group>"; };
+		5FB34ACC2380F8DC00700DA5 /* 村田諒太.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "村田諒太.jpg"; sourceTree = "<group>"; };
+		5FB34ACE2380F92500700DA5 /* スティーブンバトラー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "スティーブンバトラー.jpg"; sourceTree = "<group>"; };
+		5FB34AD22380FBEB00700DA5 /* ジョン・マカパ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ジョン・マカパ.jpeg"; sourceTree = "<group>"; };
+		5FB34AD4238105AB00700DA5 /* 志郎.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "志郎.jpg"; sourceTree = "<group>"; };
+		5FB34AFE23813F1C00700DA5 /* ノニトドネア.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ノニトドネア.jpg"; sourceTree = "<group>"; };
+		5FB34B02238144AC00700DA5 /* 朝倉未来.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朝倉未来.jpeg"; sourceTree = "<group>"; };
+		5FB416BE237A6E2100A677E1 /* SearchUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserTableViewCell.swift; sourceTree = "<group>"; };
+		5FB416BF237A6E2100A677E1 /* SearchUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchUserTableViewCell.xib; sourceTree = "<group>"; };
+		5FB416C2237A723000A677E1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5FB416C4237A734800A677E1 /* ShowUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUserViewController.swift; sourceTree = "<group>"; };
+		5FB416CA237AC0EF00A677E1 /* FightImpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightImpression.swift; sourceTree = "<group>"; };
+		5FB416D0237AD13900A677E1 /* ResultOfVotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultOfVotesViewController.swift; sourceTree = "<group>"; };
+		5FBAAB21237429AD00F8D5EB /* CommentToVotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentToVotes.swift; sourceTree = "<group>"; };
+		5FBAAB23237429C700F8D5EB /* CommentToPredictions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentToPredictions.swift; sourceTree = "<group>"; };
+		5FBAAB25237535C100F8D5EB /* CommentToPredictionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentToPredictionsViewController.swift; sourceTree = "<group>"; };
+		5FC6F4722334AB0F00CF2EB2 /* icons8-create-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-create-50.png"; sourceTree = "<group>"; };
+		5FC6F4732334AB0F00CF2EB2 /* icons8-analyze-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-analyze-50.png"; sourceTree = "<group>"; };
+		5FC6F4742334AB0F00CF2EB2 /* icons8-elections-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-elections-50 (1).png"; sourceTree = "<group>"; };
+		5FC6F4752334AB0F00CF2EB2 /* icons8-notification-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-notification-50.png"; sourceTree = "<group>"; };
+		5FDD64EC23EEB2FF00B941DD /* 井上尚弥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "井上尚弥.jpg"; sourceTree = "<group>"; };
+		5FDD64EE23EEB33100B941DD /* 朝倉未来.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朝倉未来.jpg"; sourceTree = "<group>"; };
+		5FF61BE82335D37600231BFE /* UserPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageViewController.swift; sourceTree = "<group>"; };
+		5FF61C082336106A00231BFE /* EditUserPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserPageViewController.swift; sourceTree = "<group>"; };
+		5FFAC8AE23790634000DEF89 /* PastFightCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastFightCardTableViewCell.swift; sourceTree = "<group>"; };
+		5FFAC8AF23790634000DEF89 /* PastFightCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PastFightCardTableViewCell.xib; sourceTree = "<group>"; };
+		97F159D863F6AB4702BA25CB /* Pods-Fight Judge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fight Judge.debug.xcconfig"; path = "Target Support Files/Pods-Fight Judge/Pods-Fight Judge.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B267CE58893BBD8F381F4A /* Pods_Fight_Judge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fight_Judge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +235,124 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B89974DB9C3619F11CBB338 /* Pods_Fight_Judge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57314EFEBDF94615BBF0B1C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F159D863F6AB4702BA25CB /* Pods-Fight Judge.debug.xcconfig */,
+				547F7C1FD9BBFBD7465C38B6 /* Pods-Fight Judge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F1212DD2377DF7D00DDB985 /* Predictions */ = {
+			isa = PBXGroup;
+			children = (
+				5F8E9058233361A40004DBCA /* PredictionViewController.swift */,
+				5F8E905C23337D100004DBCA /* FightCardTableViewCell.swift */,
+				5F62269A233DE7FD00BB3E90 /* WatchVoteViewController.swift */,
+				5F62269C233DF8AC00BB3E90 /* VoteViewController.swift */,
+				5F62269E233E0A9E00BB3E90 /* FightPredictionTableViewCell.swift */,
+				5F12E16723408AEE0030CF9C /* WatchPredictionViewController.swift */,
+				5F11CCC6236EB96900992A5E /* WatchPredictionDetailViewController.swift */,
+				5FBAAB25237535C100F8D5EB /* CommentToPredictionsViewController.swift */,
+				5F6226AA233EFB7D00BB3E90 /* WritePredictionViewController.swift */,
+			);
+			path = Predictions;
+			sourceTree = "<group>";
+		};
+		5F1212DE2377DFB000DDB985 /* Impressions */ = {
+			isa = PBXGroup;
+			children = (
+				5F0FE66A2375665A004A2898 /* PastFightCardViewController.swift */,
+				5FFAC8AE23790634000DEF89 /* PastFightCardTableViewCell.swift */,
+				5FB416D0237AD13900A677E1 /* ResultOfVotesViewController.swift */,
+				5F0FE66C2375769B004A2898 /* WriteImpressionViewController.swift */,
+				5F1212DB2377DF7600DDB985 /* WatchImpressionViewController.swift */,
+			);
+			path = Impressions;
+			sourceTree = "<group>";
+		};
+		5F1212DF2377DFD400DDB985 /* UserPage */ = {
+			isa = PBXGroup;
+			children = (
+				5FF61BE82335D37600231BFE /* UserPageViewController.swift */,
+				5FF61C082336106A00231BFE /* EditUserPageViewController.swift */,
+				5FB416BE237A6E2100A677E1 /* SearchUserTableViewCell.swift */,
+				5FB416C2237A723000A677E1 /* SearchViewController.swift */,
+				5FB416C4237A734800A677E1 /* ShowUserViewController.swift */,
+			);
+			path = UserPage;
+			sourceTree = "<group>";
+		};
+		5F1A971B235D571C0040A33C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A9713235D51F30040A33C /* User.swift */,
+				5F1A9715235D53860040A33C /* FightPrediction.swift */,
+				5FB416CA237AC0EF00A677E1 /* FightImpression.swift */,
+				5F1A9717235D53AB0040A33C /* UploadedFight.swift */,
+				5F1A9719235D53C00040A33C /* VotePrediction.swift */,
+				5FBAAB21237429AD00F8D5EB /* CommentToVotes.swift */,
+				5FBAAB23237429C700F8D5EB /* CommentToPredictions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F1A971C235D64F80040A33C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5F8E903B2331ED230004DBCA /* SignInViewController.swift */,
+				5F8E90392331DF450004DBCA /* SignUpViewController.swift */,
+				5F26ADC1232DF6F200324E31 /* SignIn.storyboard */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		5F1A971D235D67E10040A33C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F26ADB3232DE46700324E31 /* Main.storyboard */,
+				5F4F53272399C4B500F49982 /* CommentTableViewCell.xib */,
+				5F1C804B2398C220001374B6 /* PostDetailTableViewCell.xib */,
+				5F5E39EE239DC3EE00BBEFF1 /* ChartsTableViewCell.xib */,
+				5FB416BF237A6E2100A677E1 /* SearchUserTableViewCell.xib */,
+				5FFAC8AF23790634000DEF89 /* PastFightCardTableViewCell.xib */,
+				5F8E905D23337D100004DBCA /* FightCardTableViewCell.xib */,
+				5F62269F233E0A9E00BB3E90 /* FightPredictionTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F1A971E235D67E80040A33C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F26ADB1232DE46700324E31 /* ViewController.swift */,
+				5F642AE32383D5D40040D975 /* MyUINavigationViewController.swift */,
+				5F03D9A1237BC10F001A454F /* WatchPostsViewController.swift */,
+				5F1C804A2398C220001374B6 /* PostDetailTableViewCell.swift */,
+				5F4F53262399C4B500F49982 /* CommentTableViewCell.swift */,
+				5F5E39ED239DC3EE00BBEFF1 /* ChartsTableViewCell.swift */,
+				5F1212DF2377DFD400DDB985 /* UserPage */,
+				5F1212DD2377DF7D00DDB985 /* Predictions */,
+				5F1212DE2377DFB000DDB985 /* Impressions */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5F26ADA3232DE46700324E31 = {
 			isa = PBXGroup;
 			children = (
 				5F26ADAE232DE46700324E31 /* Fight Judge */,
 				5F26ADAD232DE46700324E31 /* Products */,
+				57314EFEBDF94615BBF0B1C7 /* Pods */,
+				693AB6AC895B3676877129E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +368,107 @@
 			isa = PBXGroup;
 			children = (
 				5F26ADAF232DE46700324E31 /* AppDelegate.swift */,
-				5F26ADB1232DE46700324E31 /* ViewController.swift */,
-				5F26ADB3232DE46700324E31 /* Main.storyboard */,
+				5F1A971C235D64F80040A33C /* SignIn */,
+				5F1A971B235D571C0040A33C /* Model */,
+				5F1A971D235D67E10040A33C /* View */,
+				5F1A971E235D67E80040A33C /* Controller */,
 				5F26ADB6232DE46800324E31 /* Assets.xcassets */,
+				5F642B0F23840AE30040D975 /* ios */,
+				5F81175E2367C1E400E784DA /* icons8-いいね-50.png */,
+				5F8E903D2333520E0004DBCA /* images */,
 				5F26ADB8232DE46800324E31 /* LaunchScreen.storyboard */,
 				5F26ADBB232DE46800324E31 /* Info.plist */,
 			);
 			path = "Fight Judge";
+			sourceTree = "<group>";
+		};
+		5F642B0F23840AE30040D975 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				5F642B1023840AE30040D975 /* iTunesArtwork@1x.png */,
+				5F642B1123840AE30040D975 /* AppIcon.appiconset */,
+				5F642B2323840AE30040D975 /* iTunesArtwork@2x.png */,
+				5F642B2423840AE30040D975 /* iTunesArtwork@3x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		5F642B1123840AE30040D975 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				5F642B1223840AE30040D975 /* Icon-App-76x76@2x.png */,
+				5F642B1323840AE30040D975 /* Icon-App-29x29@1x.png */,
+				5F642B1423840AE30040D975 /* Icon-App-40x40@1x.png */,
+				5F642B1523840AE30040D975 /* Icon-App-20x20@1x.png */,
+				5F642B1623840AE30040D975 /* Icon-App-83.5x83.5@2x.png */,
+				5F642B1723840AE30040D975 /* Icon-App-20x20@3x.png */,
+				5F642B1823840AE30040D975 /* ItunesArtwork@2x.png */,
+				5F642B1923840AE30040D975 /* Contents.json */,
+				5F642B1A23840AE30040D975 /* Icon-App-20x20@2x.png */,
+				5F642B1B23840AE30040D975 /* Icon-App-29x29@3x.png */,
+				5F642B1C23840AE30040D975 /* Icon-App-40x40@2x.png */,
+				5F642B1D23840AE30040D975 /* Icon-App-60x60@3x.png */,
+				5F642B1E23840AE30040D975 /* Icon-App-60x60@2x.png */,
+				5F642B1F23840AE30040D975 /* Icon-App-76x76@1x.png */,
+				5F642B2023840AE30040D975 /* Icon-App-40x40@3x.png */,
+				5F642B2123840AE30040D975 /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		5F8E903D2333520E0004DBCA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5F6226982337604D00BB3E90 /* placeholder.jpg */,
+				5F8E905A2333660A0004DBCA /* icons8-settings-50 (1).png */,
+				5F8E904A233352F60004DBCA /* icons8-compose-50.png */,
+				5F8E904F233352F70004DBCA /* icons8-customer-50.png */,
+				5F8E904C233352F60004DBCA /* icons8-elections-50.png */,
+				5F8E904D233352F60004DBCA /* icons8-head-to-head-50.png */,
+				5F8E904E233352F70004DBCA /* icons8-scales-50.png */,
+				5F8E905623335A2E0004DBCA /* icons8-communication-50 (1).png */,
+				5F8E904B233352F60004DBCA /* icons8-search-50 (1).png */,
+				5FC6F4732334AB0F00CF2EB2 /* icons8-analyze-50.png */,
+				5FC6F4722334AB0F00CF2EB2 /* icons8-create-50.png */,
+				5FC6F4742334AB0F00CF2EB2 /* icons8-elections-50 (1).png */,
+				5FC6F4752334AB0F00CF2EB2 /* icons8-notification-50.png */,
+				5F2483C323700E5500CEE498 /* icons8-topic-50.png */,
+				5F6226A6233E160200BB3E90 /* icons8-chart-50.png */,
+				5F2483C523700F7400CEE498 /* icons8-share-50.png */,
+				5F2483C723700FE900CEE498 /* icons8-view-more-50.png */,
+				5F2483CB2370152600CEE498 /* icons8-shopping-cart-50.png */,
+				5F2483CD23701ACB00CEE498 /* icons8-more-50.png */,
+				5F4F532A2399CD1B00F49982 /* icons8-thumbs-up-50.png */,
+				5F4F532C2399CE1000F49982 /* icons8-thumbs-down-50.png */,
+				5F5A8EA623338A81003CBD08 /* 芦沢流星.jpeg */,
+				5FDD64EC23EEB2FF00B941DD /* 井上尚弥.jpg */,
+				5F5A8EA523338A81003CBD08 /* 村越ゆうた.jpeg */,
+				5F5A8EA223338A80003CBD08 /* 朝倉海.jpg */,
+				5F5A8EA023338A80003CBD08 /* 天心.jpg */,
+				5F5A8E9E23338A80003CBD08 /* 抜刀斎.jpg */,
+				5FB34B02238144AC00700DA5 /* 朝倉未来.jpeg */,
+				5F5A8EA123338A80003CBD08 /* 武尊.jpg */,
+				5FB34AD4238105AB00700DA5 /* 志郎.jpg */,
+				5FB34ACC2380F8DC00700DA5 /* 村田諒太.jpg */,
+				5FB34ACE2380F92500700DA5 /* スティーブンバトラー.jpg */,
+				5FB34AFE23813F1C00700DA5 /* ノニトドネア.jpg */,
+				5FDD64EE23EEB33100B941DD /* 朝倉未来.jpg */,
+				5F5A8EA423338A80003CBD08 /* 堀口恭司.jpg */,
+				5FB34AD22380FBEB00700DA5 /* ジョン・マカパ.jpeg */,
+				5F8117682367CA2200E784DA /* clenched-grayfist-64.png */,
+				5F8117692367CA2300E784DA /* clenched-redfist-64.png */,
+				5F76422C2375515F000F4AB4 /* icons8-people-working-together-50 (1).png */,
+				5F1212D72377D01300DDB985 /* icons8-reply-arrow-50.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		693AB6AC895B3676877129E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7B267CE58893BBD8F381F4A /* Pods_Fight_Judge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +478,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F26ADBE232DE46800324E31 /* Build configuration list for PBXNativeTarget "Fight Judge" */;
 			buildPhases = (
+				54F6D425EAEADB59CC399211 /* [CP] Check Pods Manifest.lock */,
 				5F26ADA8232DE46700324E31 /* Sources */,
 				5F26ADA9232DE46700324E31 /* Frameworks */,
 				5F26ADAA232DE46700324E31 /* Resources */,
+				0D855044CBBA908BDC84A1F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +531,164 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F26ADC2232DF6F200324E31 /* SignIn.storyboard in Resources */,
+				5F5A8EA923338A81003CBD08 /* 天心.jpg in Resources */,
+				5F4F53292399C4B500F49982 /* CommentTableViewCell.xib in Resources */,
+				5F6226A1233E0A9E00BB3E90 /* FightPredictionTableViewCell.xib in Resources */,
+				5F8E9053233352F70004DBCA /* icons8-head-to-head-50.png in Resources */,
+				5F642B3523840AE30040D975 /* Icon-App-29x29@2x.png in Resources */,
+				5F8E9054233352F70004DBCA /* icons8-scales-50.png in Resources */,
+				5F642B2E23840AE30040D975 /* Icon-App-20x20@2x.png in Resources */,
+				5F8E9050233352F70004DBCA /* icons8-compose-50.png in Resources */,
+				5F642B3823840AE30040D975 /* iTunesArtwork@3x.png in Resources */,
+				5F8E9051233352F70004DBCA /* icons8-search-50 (1).png in Resources */,
+				5F5A8EAE23338A81003CBD08 /* 村越ゆうた.jpeg in Resources */,
+				5FC6F4762334AB0F00CF2EB2 /* icons8-create-50.png in Resources */,
+				5F642B3023840AE30040D975 /* Icon-App-40x40@2x.png in Resources */,
+				5FB416C1237A6E2100A677E1 /* SearchUserTableViewCell.xib in Resources */,
+				5F642B3723840AE30040D975 /* iTunesArtwork@2x.png in Resources */,
+				5F6226A7233E160200BB3E90 /* icons8-chart-50.png in Resources */,
+				5F81175F2367C1E400E784DA /* icons8-いいね-50.png in Resources */,
+				5F642B2A23840AE30040D975 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				5F5A8EAD23338A81003CBD08 /* 堀口恭司.jpg in Resources */,
+				5F642B2923840AE30040D975 /* Icon-App-20x20@1x.png in Resources */,
+				5F81176A2367CA2300E784DA /* clenched-grayfist-64.png in Resources */,
+				5F4F532B2399CD1C00F49982 /* icons8-thumbs-up-50.png in Resources */,
+				5FDD64EF23EEB33100B941DD /* 朝倉未来.jpg in Resources */,
+				5F8E9052233352F70004DBCA /* icons8-elections-50.png in Resources */,
+				5FFAC8B123790634000DEF89 /* PastFightCardTableViewCell.xib in Resources */,
+				5FB34AFF23813F1C00700DA5 /* ノニトドネア.jpg in Resources */,
+				5F8E9055233352F70004DBCA /* icons8-customer-50.png in Resources */,
+				5F6226992337604D00BB3E90 /* placeholder.jpg in Resources */,
+				5F642B2F23840AE30040D975 /* Icon-App-29x29@3x.png in Resources */,
+				5FC6F4782334AB0F00CF2EB2 /* icons8-elections-50 (1).png in Resources */,
+				5F642B2B23840AE30040D975 /* Icon-App-20x20@3x.png in Resources */,
+				5F2483CE23701ACB00CEE498 /* icons8-more-50.png in Resources */,
+				5F5E39F0239DC3EE00BBEFF1 /* ChartsTableViewCell.xib in Resources */,
+				5F5A8EAB23338A81003CBD08 /* 朝倉海.jpg in Resources */,
+				5F2483CC2370152600CEE498 /* icons8-shopping-cart-50.png in Resources */,
+				5F642B2D23840AE30040D975 /* Contents.json in Resources */,
 				5F26ADBA232DE46800324E31 /* LaunchScreen.storyboard in Resources */,
+				5F5A8EA723338A81003CBD08 /* 抜刀斎.jpg in Resources */,
+				5F642B3223840AE30040D975 /* Icon-App-60x60@2x.png in Resources */,
+				5FC6F4792334AB0F00CF2EB2 /* icons8-notification-50.png in Resources */,
+				5FB34B03238144AC00700DA5 /* 朝倉未来.jpeg in Resources */,
+				5F642B3323840AE30040D975 /* Icon-App-76x76@1x.png in Resources */,
+				5F8E905723335A2E0004DBCA /* icons8-communication-50 (1).png in Resources */,
+				5F76422D2375515F000F4AB4 /* icons8-people-working-together-50 (1).png in Resources */,
+				5F4F532D2399CE1000F49982 /* icons8-thumbs-down-50.png in Resources */,
+				5F1212D82377D01300DDB985 /* icons8-reply-arrow-50.png in Resources */,
+				5FB34AD32380FBEB00700DA5 /* ジョン・マカパ.jpeg in Resources */,
+				5F2483C823700FE900CEE498 /* icons8-view-more-50.png in Resources */,
+				5F642B2523840AE30040D975 /* iTunesArtwork@1x.png in Resources */,
+				5F642B2723840AE30040D975 /* Icon-App-29x29@1x.png in Resources */,
+				5FB34AD5238105AB00700DA5 /* 志郎.jpg in Resources */,
+				5F81176B2367CA2300E784DA /* clenched-redfist-64.png in Resources */,
+				5F5A8EAA23338A81003CBD08 /* 武尊.jpg in Resources */,
+				5F642B2823840AE30040D975 /* Icon-App-40x40@1x.png in Resources */,
+				5FDD64ED23EEB30000B941DD /* 井上尚弥.jpg in Resources */,
+				5F642B2623840AE30040D975 /* Icon-App-76x76@2x.png in Resources */,
+				5F642B2C23840AE30040D975 /* ItunesArtwork@2x.png in Resources */,
+				5F2483C623700F7400CEE498 /* icons8-share-50.png in Resources */,
+				5F5A8EAF23338A81003CBD08 /* 芦沢流星.jpeg in Resources */,
+				5F1C804D2398C220001374B6 /* PostDetailTableViewCell.xib in Resources */,
+				5F642B3123840AE30040D975 /* Icon-App-60x60@3x.png in Resources */,
 				5F26ADB7232DE46800324E31 /* Assets.xcassets in Resources */,
 				5F26ADB5232DE46700324E31 /* Main.storyboard in Resources */,
+				5F8E905F23337D100004DBCA /* FightCardTableViewCell.xib in Resources */,
+				5F8E905B2333660A0004DBCA /* icons8-settings-50 (1).png in Resources */,
+				5FB34ACF2380F92500700DA5 /* スティーブンバトラー.jpg in Resources */,
+				5F2483C423700E5500CEE498 /* icons8-topic-50.png in Resources */,
+				5F642B3423840AE30040D975 /* Icon-App-40x40@3x.png in Resources */,
+				5FC6F4772334AB0F00CF2EB2 /* icons8-analyze-50.png in Resources */,
+				5FB34ACD2380F8DC00700DA5 /* 村田諒太.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D855044CBBA908BDC84A1F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fight Judge/Pods-Fight Judge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fight Judge/Pods-Fight Judge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fight Judge/Pods-Fight Judge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F6D425EAEADB59CC399211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fight Judge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F26ADA8232DE46700324E31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1A9718235D53AB0040A33C /* UploadedFight.swift in Sources */,
+				5F1C804C2398C220001374B6 /* PostDetailTableViewCell.swift in Sources */,
+				5F8E903C2331ED230004DBCA /* SignInViewController.swift in Sources */,
+				5FBAAB26237535C100F8D5EB /* CommentToPredictionsViewController.swift in Sources */,
+				5F1212DC2377DF7600DDB985 /* WatchImpressionViewController.swift in Sources */,
+				5F5E39EF239DC3EE00BBEFF1 /* ChartsTableViewCell.swift in Sources */,
+				5F62269B233DE7FD00BB3E90 /* WatchVoteViewController.swift in Sources */,
+				5F0FE66B2375665A004A2898 /* PastFightCardViewController.swift in Sources */,
+				5F1A9716235D53860040A33C /* FightPrediction.swift in Sources */,
+				5FF61BE92335D37600231BFE /* UserPageViewController.swift in Sources */,
+				5F03D9A2237BC10F001A454F /* WatchPostsViewController.swift in Sources */,
+				5F8E9059233361A40004DBCA /* PredictionViewController.swift in Sources */,
+				5FB416C0237A6E2100A677E1 /* SearchUserTableViewCell.swift in Sources */,
+				5F6226AB233EFB7D00BB3E90 /* WritePredictionViewController.swift in Sources */,
+				5F8E905E23337D100004DBCA /* FightCardTableViewCell.swift in Sources */,
+				5FBAAB24237429C700F8D5EB /* CommentToPredictions.swift in Sources */,
+				5FF61C092336106A00231BFE /* EditUserPageViewController.swift in Sources */,
+				5F1A971A235D53C00040A33C /* VotePrediction.swift in Sources */,
+				5F642AE42383D5D40040D975 /* MyUINavigationViewController.swift in Sources */,
+				5FBAAB22237429AD00F8D5EB /* CommentToVotes.swift in Sources */,
+				5FFAC8B023790634000DEF89 /* PastFightCardTableViewCell.swift in Sources */,
+				5F1A9714235D51F30040A33C /* User.swift in Sources */,
+				5F62269D233DF8AC00BB3E90 /* VoteViewController.swift in Sources */,
+				5F0FE66D2375769B004A2898 /* WriteImpressionViewController.swift in Sources */,
+				5FB416CB237AC0EF00A677E1 /* FightImpression.swift in Sources */,
+				5FB416C5237A734800A677E1 /* ShowUserViewController.swift in Sources */,
+				5F8E903A2331DF450004DBCA /* SignUpViewController.swift in Sources */,
+				5F4F53282399C4B500F49982 /* CommentTableViewCell.swift in Sources */,
+				5FB416C3237A723000A677E1 /* SearchViewController.swift in Sources */,
+				5F11CCC7236EB96900992A5E /* WatchPredictionDetailViewController.swift in Sources */,
 				5F26ADB2232DE46700324E31 /* ViewController.swift in Sources */,
+				5F12E16823408AEE0030CF9C /* WatchPredictionViewController.swift in Sources */,
 				5F26ADB0232DE46700324E31 /* AppDelegate.swift in Sources */,
+				5FB416D1237AD13A00A677E1 /* ResultOfVotesViewController.swift in Sources */,
+				5F6226A0233E0A9E00BB3E90 /* FightPredictionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +832,13 @@
 		};
 		5F26ADBF232DE46800324E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F159D863F6AB4702BA25CB /* Pods-Fight Judge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABRY2KN8D3;
 				INFOPLIST_FILE = "Fight Judge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +852,13 @@
 		};
 		5F26ADC0232DE46800324E31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547F7C1FD9BBFBD7465C38B6 /* Pods-Fight Judge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABRY2KN8D3;
 				INFOPLIST_FILE = "Fight Judge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
